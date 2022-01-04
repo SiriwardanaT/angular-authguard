@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "authguard"
+    }
+  },
+  "defaultProject": "authguard",
+  "cli": {
+    "analytics": false
+  }
 }
