@@ -9,7 +9,7 @@ import { StudentsService } from '../services/students.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(public studentsService: StudentsService, private router: Router) { }
+  constructor(private studentsService: StudentsService, private router: Router) { }
   public studentList = []
   ngOnInit(): void {
     //get all hostal students information
